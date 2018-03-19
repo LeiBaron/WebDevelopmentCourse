@@ -1,0 +1,120 @@
+﻿body {
+    direction: rtl;
+    color: white;
+    background-image: url('../images/pink_rice.png');
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    text-align: right;
+    background-color: #A67F78;
+    border: 3px solid white;
+    padding: 40px;
+    line-height: 20px;
+    font-size: 12pt;
+}
+
+#nav1 {
+    margin: -40px;
+    margin-bottom:100px;
+}
+
+    #nav1 ul li {
+        list-style: none;
+        display: inline-block;
+        float: right;
+    }
+
+nav ul li a {
+    display: block;
+    background-color: #F2BAAF;
+    color: white;
+    width: 208px;
+    height: 50px;
+    padding-top: 35px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20pt;
+}
+
+#nav1 ul li a:hover {
+    background-color: #87B7D9;
+}
+
+#nav1 ul li a:active {
+    background-color: #152E40;
+}
+#current {
+    background-color: #87B7D9;
+}
+
+
+h1, h3 {
+    display: inline;
+    margin-top: 10px;
+}
+
+#title {
+    display: block;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section {
+    margin: 10px;
+}
+
+.change {
+    display: inline;
+}
+
+h1 {
+    font-size: 24pt;
+    color: linen;
+}
+
+li {
+    list-style-image: url('../images/hrt1.gif');
+}
+
+h2 {
+    font-size: 14pt;
+}
+
+#mailto {
+    background-image: url('../images/google.png');
+    width: 30px;
+    height: 25px;
+    padding: 30px;
+    padding-bottom:10px;
+    margin-top:5px;
+}
+
+#instagram {
+    background-image: url('../images/insta.jpg');
+    width: 30px;
+    height: 25px;
+    padding: 30px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+#space {
+    margin-bottom: 50px;
+}
+
+.animation {
+    -webkit-transition: all 700ms ease-in-out;
+    -moz-transition: all 700ms ease-in-out;
+    -ms-transition: all 700ms ease-in-out;
+    -o-transition: all 700ms ease-in-out;
+    transition: all 700ms ease-in-out;
+}
+.animation:hover {
+    transform: scale(1.1);
+    filter: saturate(8);
+
+}
