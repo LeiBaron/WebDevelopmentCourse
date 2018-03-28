@@ -1,0 +1,75 @@
+body {
+    direction: rtl;
+    background-image: url('../images/DSC_98422.jpg');
+    width:1920px;
+
+    
+}
+
+#container {
+    margin: 0 auto;
+    width:1920px;
+}
+
+h1 {
+    margin-bottom: 100px;
+    margin-right: 100px;
+    font-size: 42pt;
+    text-align: right;
+}
+
+h2 {
+    margin-bottom: 60px;
+    margin-right: 100px;
+    font-size: 30pt;
+    text-align: right;
+}
+
+#main {
+    margin: 30px;
+    margin-right: 100px;
+    font-size: 22pt;
+    text-align: right;
+}
+
+#logo {
+    margin: 20px;
+    padding: 150px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-image: url('../images/hit.png');
+}
+
+#start {
+    margin-top: -200px;
+}
+
+input {
+    display: block;
+    width: 180px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 16pt;
+}
+
+#cb1 {
+    display: inline;
+    height: 20px;
+    width: 20px;
+}
+
+#contact {
+    background-color: #008285;
+    padding: 10px;
+    color: white;
+    margin-right: 1100px;
+    margin-top: -400px;
+    width: 450px;
+    font-size: 20pt;
+    border: 3px solid white;
+}
+
+h1, h2, #main {
+    color: white;
+}
+
