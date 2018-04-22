@@ -1,0 +1,72 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>צור קשר</title>
+    <meta name="description" content="צור קשר עם לי בראון" />
+    <meta name="keywords" content="portfolio,Lei,Baron,Profile,contact, צור קשר,לי בראון" />
+    <meta name="author" content="Lei Baron" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+
+
+</head>
+<body>
+    <div id="container">
+        <nav id="nav1">
+            <ul>
+                <li><a id="logo" href=index.html><p id="top">Lei Baron</p><p id="bottomP">Protfolio</p></a></li>
+                <li>
+                    <a class="clear">עבודות</a>
+                    <ul>
+                        <li><a href="Final.html">פרוייקט סיום</a></li>
+                        <li><a href="ActIL.html">Act.IL</a></li>
+                        <li><a href="postcard.html">גלוייה</a></li>
+                    </ul>
+                </li>
+                <li><a href=about.html>אודות</a></li>
+                <li><a class="current" href=contact.html>צור קשר</a></li>
+            </ul>
+        </nav>
+        <article class="back">
+            <section>
+                <h2>צור קשר</h2>
+                <p>ניתן להשיג אותי דרך המייל, האינסטגרם או דרך הטופס המצורף למטה</p>
+                <a href="mailto:leebaronx3@gmail.com"><div id="mail"></div></a>
+                <a href="https://www.instagram.com/leebaronx3/" target="_blank"><div id="instagram"></div></a>
+            </section>
+            <form>
+               <input type="hidden" id="myEmail" name="name" value="leebaronx3@gmail.com">
+                <label for="Name">
+                    שם מלא:
+                    <input type="text" id="Name" placeholder="שם מלא" />
+                </label>
+
+                <label for="Email">
+                    אימייל:
+                    <input type="email" id="Email" placeholder="Email" />
+                </label>
+
+                <label for="myMS">
+                    הכנס הודעה כאן:
+                    <textarea id="myMS"></textarea>
+                </label>
+                <label for="Send">
+                    <input type="submit" id="Send" value="שלח">
+                </label>
+
+                <div id="feedback"></div>
+            </form>
+        </article>
+
+    </div>
+</body>
+</html>
