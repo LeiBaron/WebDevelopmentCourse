@@ -1,0 +1,582 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Heebo:400,500');
+
+/*כללי*/
+body {
+    direction: rtl;
+   }
+
+#container *{
+    font-family:Heebo;
+}
+
+.mediumFont, h2 {
+    font-weight: 500;
+}
+
+.word {
+    font-size: 26pt;
+}
+
+.divider {
+    height: 20px;
+    background-color: rgb(106, 78, 79);
+    margin-right: -75px;
+    width: 1261px;
+}
+
+.Lobby {
+    background-color: #c5e0b4;
+    margin-right: -75px !important;
+    width: 1261px !important;
+}
+
+.firstPlant {
+    background-color: #e3f1db;
+    margin-right: -75px !important;
+    width: 1261px !important;
+}
+
+.secondPlant {
+    background-color: #f2f8ee;
+    margin-right: -75px !important;
+    width: 1261px !important;
+}
+
+.important {
+    font-weight: bold;
+    margin-top: 15px;
+    list-style-image: url('../images/redBullet.png') !important;
+    font-size: 10pt;
+}
+
+.benefits li {
+    list-style-image: url('../images/greenBullet.png')
+}
+
+/*לבוטסטראפ*/
+.row{
+    margin-left:0 !important;
+}
+
+/*נגישות*/
+/*דלג לתוכן העמוד*/
+#skip {
+    margin: -3000px;
+    position: relative;
+    
+}
+    #skip:focus {
+        margin: 0;
+        display: inline-block;
+        background-color: darkseagreen;
+        color: black;
+        position: relative;
+        z-index: 9999;
+    }
+
+a:focus, a:hover {
+    outline-color:forestgreen;  
+    }
+
+
+/*לוגו*/
+a#logo{
+    z-index:1;
+}
+#logo img{
+    width:145px;
+}
+.navbar-brand{
+    width:inherit;
+}
+
+
+/*תפריט ניווט משני*/
+nav#nav2 {
+    background-color: rgba(106, 78, 79, 0.8);
+    height: 30px;
+    -webkit-transition: all 100ms ease-in-out;
+    -moz-transition: all 100ms ease-in-out;
+    -ms-transition: all 100ms ease-in-out;
+    -o-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
+}
+#nav2 a {
+    color: white;
+}
+    #nav2 a:hover {
+        background-color: #533637;
+        height: 35px;
+    }
+    #nav2 a:active {
+        background-color: #4a2e2f;
+        height: 35px;
+    }
+
+    #nav2 a.line::after {
+        content: " |";
+    }
+
+    /*לפונקציות*/
+.active2 {
+    background-color: rgba(83, 53, 55, 0.8);
+    height: 35px;
+}
+.Nav2Opacity {
+    background-color: rgba(106, 78, 79, 1) !important;
+}
+
+
+/*תפריט ניווט ראשי*/
+nav#nav1 {
+    background-color: rgba(241, 249, 235, 0.6);
+    margin-top: -66px;
+    padding-right: 165px;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: static;
+    z-index: -1;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+#nav1 a {
+    color: black;
+    line-height: 40px;
+    font-size: 90%; /*נגישות*/
+}
+#nav1 a:hover {
+    background-color: rgba(188, 220, 169, 0.8);
+}
+
+#nav1 a:active {
+    background-color: rgba(169, 205, 147, 1);
+}
+/*לפונקציות*/
+.active1 {
+    background-color: rgba(188, 220, 169, 0.8);
+}
+.Nav1Opacity {
+    background-color: #f1f9eb !important;
+}
+
+
+
+/*עמוד בית*/
+#HomePage {
+    background-image: url(../images/homeBack.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 577px;
+    width: 1261.5px;
+    background-attachment: fixed;
+    margin-top: -35px;
+    margin-right: -75px;
+}
+
+.toStyle{
+    font-weight:500;
+    
+}
+#Med {
+    background-image: url('../images/homeIcons.png');
+    height: 124px;
+    width: 149px;
+    background-size: 600px;
+    background-position-x: left;
+    border: 4px solid #c8c75c;
+   
+}
+#Bugs {
+    background-image: url('../images/homeIcons.png');
+    height: 124px;
+    width: 149px;
+    background-size: 600px;
+    background-position-x: 440px;
+    border: 4px solid #c8c75c;
+    }
+#Pure {
+    background-image: url('../images/homeIcons.png');
+    height: 124px;
+    width: 149px;
+    background-size: 600px;
+    background-position-x: 290px;
+    border: 4px solid #c8c75c;
+    
+}
+    #Pure:hover {
+        padding-right: 10px;
+        
+    }
+#Spices {
+    background-image: url('../images/homeIcons.png');
+    height: 124px;
+    width: 149px;
+    background-size: 600px;
+    background-position-x: right;
+    border: 4px solid #c8c75c;
+    
+}
+
+#HomePage nav ul {
+    list-style: none;
+
+}
+#HomePage a {
+    text-decoration: none;
+    color: black;
+    
+}
+.links {
+    padding-top: 124px;
+    padding-right: 26px;
+    
+}
+    .links:hover {
+        font-weight: bold;
+        font-size: 14pt;
+        
+    }
+
+
+/*תנאי גידול*/
+.conditions {
+    background-image: url(../images/conditions.png);
+    background-repeat: no-repeat;
+    background-size: 435px;
+    height: 0;
+    padding-top: 70px;
+}
+
+.fullSun {
+    background-position-x:26px;
+}
+.maxWater {
+    background-position-x: 23px;
+    background-position-y: -81px;
+}
+.mediumWater {
+    background-position-x: -84px;
+    background-position-y: -81px;
+}
+.minWater {
+    background-position-x: -199px;
+    background-position-y: -82px;
+}
+.allYear {
+    background-position-y: -253px;
+    background-position-x: 13px;
+    text-align: center;
+}
+.SpringFall {
+    background-position-y: -255px;
+    background-position-x: -91px;
+    text-align: center;
+}
+.Spring {
+    background-position-y: -171px;
+    background-position-x: -318px;
+}
+
+
+/*צמחי מרפא*/
+/*לבנדר*/
+#lavenderPic {
+    height: 400px;
+    margin-bottom: -23px;
+    position: relative;
+    right: -50px;
+}
+/*ג'ינגר*/
+#GingerPic {
+    height: 417px;
+    position: relative;
+    left: 43px;
+}
+
+/*נגד חרקים*/
+/*גרניום*/
+#GareniumPic {
+    height: 395px;
+}
+/*בזיליקום*/
+#BasilPic {
+    position: relative;
+    height: 426px;
+    left: 31px;
+}
+
+ul#poison {
+    list-style-type: none;
+    margin-right: -41px;
+}
+
+/*צמחים מטהרים*/
+/*גרברה עדינה*/
+#DaisyPic {
+    height: 400px;
+}
+/*ספטיפיליום*/
+#SpatiPic {
+    height: 357px;
+}
+
+/*צמחי תבלין*/
+/*רוזמרין*/
+#RosemaryPic {
+    height: 400px;
+}
+/*נענע*/
+#MintPic {
+    height: 372px;
+    bottom: -48px;
+}
+
+/*בדרך למשתלה*/
+#plantLang ul li{
+    list-style:none;
+}
+.boldWord{
+    font-weight:bold;
+}
+.conditions2 {
+    background-image: url(../images/conditions.png);
+    background-repeat: no-repeat;
+    display:inline-block;
+    background-size: 380px;
+    height: 62px;
+}
+
+.fullSun2 {
+    background-position-y: -6px;
+    background-position-x: 1px;
+}
+.halfSun2 {
+    background-position-y: -6px;
+    background-position-x: -92px;
+}
+.someShadow2 {
+    background-position-y: -4px;
+    background-position-x: -195px;
+}
+.fullShadow2 {
+    background-position-y: -6px;
+    background-position-x: -298px;
+}
+.maxWater2 {
+    background-position-y: -79px;
+    background-position-x: -13px;
+}
+.mediumWater2 {
+    background-position-y: -78px;
+    background-position-x: -108px;
+}
+.minWater2 {
+    background-position-y: -78px;
+    background-position-x: -211px;
+}
+
+.leaf {
+    background-image: url(../images/leafBullets.png);
+    background-repeat: no-repeat;
+    background-size: 46px;
+    width: 26px;
+    height: 45px;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.toRight {
+    margin-right: -63px;
+}
+/*אודות*/
+#Logo_HIT {
+    background-image: url(../images/Logo_HIT.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    height: 127px;
+    width: 200px;
+    background-position-x: -2px;
+}
+#holon h3{
+    font-size:14pt;
+}
+
+
+
+/*צור קשר*/
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type ='text'], input[type='email'], textarea {
+    display: block;
+    margin-bottom: 15px;
+}
+
+input[type ='submit'] {
+    margin-top: 10px;
+}
+
+
+/*קישורים*/
+#siteMap a, #about a{
+    color:black;
+
+}
+
+/*גלול מעלה*/
+#scrollup {
+    position: fixed;
+    display: block;
+    bottom: 5px;
+    right: 5px;
+    background-color: rgba(106, 78, 79,0.5);
+    color: white;
+    font-size: 12pt;
+    text-decoration: none;
+    opacity: 0;
+    padding: 10px 20px;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+.scrollupShow {
+    opacity: 1 !important;
+
+}
+
+
+/*אפקט טקסט*/
+.fade1, .fade2, .fade3, .fade4, .fade5, .fade6, .fade7, .fade8, .fade9, .fade10, .fade11,
+.fade12, .fade13, .fade14, .fade15, .fade16 {
+    opacity: 0;
+    -webkit-transition: all 800ms ease-in-out;
+    -moz-transition: all 800ms ease-in-out;
+    -ms-transition: all 800ms ease-in-out;
+    -o-transition: all 800ms ease-in-out;
+    transition: all 800ms ease-in-out;
+}
+
+.fade2_1, .fade3_1, .fade5_1, .fade6_1, .fade8_1, .fade9_1, .fade11_1, .fade12_1 {
+    opacity: 0;
+    -webkit-transition: all 1200ms ease-in-out;
+    -moz-transition: all 1200ms ease-in-out;
+    -ms-transition: all 1200ms ease-in-out;
+    -o-transition: all 1200ms ease-in-out;
+    transition: all 1200ms ease-in-out;
+}
+
+.Opa{
+    opacity:1 !important;
+}
+
+/*תמונות אווירה*/
+
+
+#MedDeco {
+    background-image: url(../images/MedPlant.png);
+    background-repeat: no-repeat;
+    background-size: 101px;
+    width: 84px;
+    height: 98px;
+    position: relative;
+    right: 163px;
+    top: 39px;
+    margin-top: -50px;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+#MedDeco:hover{
+    transform:rotate(5deg);
+}
+
+#BugsDeco {
+    background-image: url(../images/BugPlant.png);
+    background-repeat: no-repeat;
+    background-size: 95px;
+    width: 87px;
+    height: 98px;
+    position: relative;
+    right: 247px;
+    top: 46px;
+    margin-top: -53px;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+    #BugsDeco:hover {
+        transform: rotate(5deg);
+    }
+
+#PureDeco {
+    background-image: url(../images/PurePlant.png);
+    background-repeat: no-repeat;
+    background-size: 83px;
+    width: 82px;
+    height: 84px;
+    position: relative;
+    right: 194px;
+    top: 41px;
+    margin-top: -45px;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+    #PureDeco:hover {
+        transform: rotate(5deg);
+    }
+
+#SpicesDeco {
+    background-image: url(../images/SpicesPlant.png);
+    background-repeat: no-repeat;
+    background-size: 83px;
+    width: 82px;
+    height: 84px;
+    position: relative;
+    right: 157px;
+    top: 44px;
+    margin-top: -50px;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+    #SpicesDeco:hover {
+        transform: rotate(5deg);
+    }
+
+#aboutDeco {
+    background-image: url('../images/aboutDeco.png');
+    background-repeat: no-repeat;
+    background-size: 353px;
+    width: 500px;
+    height: 251px;
+    position: relative;
+    bottom: 65px;
+    left: -252px;
+    margin-bottom: -94px;
+}
+
+
+/*פוטר*/
+#credit {
+    margin-right: -66px;
+}
